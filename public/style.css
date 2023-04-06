@@ -1,0 +1,176 @@
+body {
+    min-height: 2000;
+    width:100%;
+  
+  }
+  .home {
+  
+    background-color: #000;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .home .home-content {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px;
+}
+
+.home .text-one {
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+
+.home .text-two {
+    color: #fff;
+    font-size: 15px;
+    margin-left: -3px;
+}
+/* 
+.home .text-three {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #fff;
+} */
+
+.home .text-four {
+    font-size: 23px;
+    margin: 5px 0;
+    color: #0E2431;
+}
+/* 
+.home .button {
+    margin: 14px 0;
+}
+
+.home .button button {
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #4070f4;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+
+.home .button button:hover {
+    border-color: #4070f4;
+    background-color: #fff;
+    color: #4070f4;
+} */
+
+/* .card-img-top {
+  bottom:-1000px;
+    border-radius:20px;
+    width:100%;
+    height:100%;
+}
+
+/* About Section Styling */
+/* Those Elements Where We Have Apply Same CSS,
+ I'm Selecting Directly 'Section Tag' and 'Class'  */
+section {
+    padding-top: 20px;
+}
+
+
+
+  .col-sm-12{
+    margin-bottom:10px;
+    padding:10px;
+    border-radius: 20px;
+  }
+  .card{
+     border-radius: 4px;
+     background: #fff;
+     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+   cursor: pointer;
+   height:100%;
+   width:100%;
+   
+ }
+ 
+ .card:hover{
+      transform: scale(1.05);
+      top:-10px;
+   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+ }
+
+  h1{
+  margin-top:10px;
+  }
+  p{
+  font-family:"comic sans";
+  opacity:90%;
+  font-size:15px;
+  margin-top:15px;
+  } 
+
+
+
+
+  h1{
+    margin-top:30px;
+    margin-bottom:30px;
+    }
+ 
+
+    
+.container {
+ width: 100%;
+    
+}
+    .slider {
+      animation: slidein 20s linear infinite;
+      white-space: nowrap;
+    }
+      .logos {
+        width: 100%;
+        display: inline-block;
+        margin: 0px 0;
+      }
+        .fab {
+          width: calc(100% / 5);
+          animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        }
+
+  
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .gambarSkill{
+    max-height:150px;
+    max-width:150px;
+    padding:10px;
+  }
+
+
+  #about{
+      background-color: #000;
+      font-family: 'Ubuntu', sans-serif;
+      color: #ffffff;
+   
+  }
